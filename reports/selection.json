@@ -1,0 +1,19 @@
+{
+  "mode": "full",
+  "selected": "distilbert",
+  "attention_model": "bilstm_attention",
+  "validation_macro_f1": {
+    "distilbert": 0.7076527075816567,
+    "lstm": 0.625684395774592,
+    "gru": 0.6428644563630627,
+    "bilstm_attention": 0.655211138898954
+  },
+  "tie_policy": "Within 0.001 absolute of highest validation macro F1: fewer trainable parameters, then validation end-to-end latency, then fixed model order.",
+  "tied_candidates": [
+    "distilbert"
+  ],
+  "frozen_before_test": true,
+  "model_key": "c3639a8f01d9c2fa7dbe16afbcfa8c3d687c95eef05a95c5c95dc9270d6820d5",
+  "quality_claim": true,
+  "frozen_unix": 1794074714.6995876
+}

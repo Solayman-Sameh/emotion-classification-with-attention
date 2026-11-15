@@ -1,0 +1,61 @@
+{
+  "execution": "CPU reload of actual bounded/full trained checkpoints",
+  "models": {
+    "distilbert": {
+      "clean_cpu_reload": true,
+      "probability_atol_rtol": 0.003,
+      "validation_argmax_agreement": 1.0,
+      "finite_probabilities": true,
+      "edge_inputs_checked": [
+        "happy happy happy!",
+        "😢",
+        "x",
+        "not happy!!!",
+        "long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long ",
+        "<script>alert(1)</script>"
+      ]
+    },
+    "lstm": {
+      "clean_cpu_reload": true,
+      "probability_atol_rtol": 0.003,
+      "validation_argmax_agreement": 1.0,
+      "finite_probabilities": true,
+      "edge_inputs_checked": [
+        "happy happy happy!",
+        "😢",
+        "x",
+        "not happy!!!",
+        "long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long ",
+        "<script>alert(1)</script>"
+      ]
+    },
+    "gru": {
+      "clean_cpu_reload": true,
+      "probability_atol_rtol": 0.003,
+      "validation_argmax_agreement": 1.0,
+      "finite_probabilities": true,
+      "edge_inputs_checked": [
+        "happy happy happy!",
+        "😢",
+        "x",
+        "not happy!!!",
+        "long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long ",
+        "<script>alert(1)</script>"
+      ]
+    },
+    "bilstm_attention": {
+      "clean_cpu_reload": true,
+      "probability_atol_rtol": 0.003,
+      "validation_argmax_agreement": 1.0,
+      "finite_probabilities": true,
+      "edge_inputs_checked": [
+        "happy happy happy!",
+        "😢",
+        "x",
+        "not happy!!!",
+        "long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long ",
+        "<script>alert(1)</script>"
+      ]
+    }
+  }
+}

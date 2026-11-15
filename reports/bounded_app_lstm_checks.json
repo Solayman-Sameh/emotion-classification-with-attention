@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "selected": "lstm",
+  "roles": [
+    "bilstm_attention",
+    "lstm"
+  ],
+  "blank_rejected": true,
+  "six_ordered_bars": true,
+  "edge_inputs": [
+    "happy happy happy!",
+    "I am not happy about this.",
+    "😢😢",
+    "x",
+    "happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy happy ",
+    "<script>alert(1)</script>"
+  ],
+  "fresh_process_cpu_reload": true,
+  "offline_startup": true,
+  "attention_order_and_occurrences": true,
+  "html_escaped": true,
+  "gradio_build": true,
+  "probability_tolerance": 3e-06
+}

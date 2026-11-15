@@ -1,0 +1,7 @@
+,train,validation,test
+neutral,14219,1766.0,1787.0
+retained,26517,3342.0,3357.0
+cross_emotion,2459,306.0,278.0
+duplicate_cross_split,115,8.0,0.0
+duplicate_within_split,88,4.0,5.0
+conflicting_group,12,0.0,0.0

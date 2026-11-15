@@ -1,0 +1,12 @@
+# Hash-verified application text must have identical bytes on every platform.
+* text=auto eol=lf
+*.png -text
+*.jpg -text
+*.jpeg -text
+*.gif -text
+*.mp4 -text
+*.webm -text
+*.npy -text
+*.pt -text
+*.safetensors -text
+*.zip -text

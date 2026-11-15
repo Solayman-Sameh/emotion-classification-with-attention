@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "execution": "dummy subprocesses; does not establish CUDA or two-GPU execution",
+  "overlap": true,
+  "visibility_env": true,
+  "one_slot_fallback": true,
+  "failure_cancellation": true
+}

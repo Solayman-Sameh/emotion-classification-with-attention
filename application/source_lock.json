@@ -1,0 +1,130 @@
+{
+  "dataset_revision": "add492243ff905527e67aeb8b80c082af02207c3",
+  "model_revision": "12040accade4e8a0f71eabdb258fecc2e7e948be",
+  "mapping_revision": "2adf640a14f11025ae5a9d0ec493b78530d276d3",
+  "glove_metadata_revision": "bd93f51f7536dbf84f194cd8a81c0644b7b95b41",
+  "files": {
+    "README.md": {
+      "url": "https://huggingface.co/datasets/google-research-datasets/go_emotions/resolve/add492243ff905527e67aeb8b80c082af02207c3/README.md",
+      "file": "README.md",
+      "sha256": "0a5a9f3a949cce822f6d7453b91433b9fac739187f51ecc665fc5b8a6ec291ba",
+      "bytes": 9399
+    },
+    "simplified/test-00000-of-00001.parquet": {
+      "url": "https://huggingface.co/datasets/google-research-datasets/go_emotions/resolve/add492243ff905527e67aeb8b80c082af02207c3/simplified/test-00000-of-00001.parquet",
+      "file": "simplified__test-00000-of-00001.parquet",
+      "sha256": "fd0953e535ba2569edc6a1daaa1133f8e4b9071691d540c9bab812fda132bc26",
+      "bytes": 346630
+    },
+    "simplified/train-00000-of-00001.parquet": {
+      "url": "https://huggingface.co/datasets/google-research-datasets/go_emotions/resolve/add492243ff905527e67aeb8b80c082af02207c3/simplified/train-00000-of-00001.parquet",
+      "file": "simplified__train-00000-of-00001.parquet",
+      "sha256": "b7d74279616ae7c9b8374ab62ea9f9d6504d36a577bb17f745d720dc2b0d4e76",
+      "bytes": 2767678
+    },
+    "simplified/validation-00000-of-00001.parquet": {
+      "url": "https://huggingface.co/datasets/google-research-datasets/go_emotions/resolve/add492243ff905527e67aeb8b80c082af02207c3/simplified/validation-00000-of-00001.parquet",
+      "file": "simplified__validation-00000-of-00001.parquet",
+      "sha256": "d46ad5633c4fa41829d22d549743a7bf858d94129536a02af7280c281db5e63a",
+      "bytes": 350063
+    },
+    "mapping": {
+      "url": "https://raw.githubusercontent.com/google-research/google-research/2adf640a14f11025ae5a9d0ec493b78530d276d3/goemotions/data/ekman_mapping.json",
+      "file": "ekman_mapping.json",
+      "sha256": "d6b1fea382917c1685c42e1324a0344106be9390f52a3850ce032656d103a328",
+      "bytes": 396
+    },
+    "glove_metadata": {
+      "url": "https://raw.githubusercontent.com/piskvorky/gensim-data/bd93f51f7536dbf84f194cd8a81c0644b7b95b41/list.json",
+      "file": "gensim_list.json",
+      "sha256": "a6cf32eebecd2385ba9f8f1946edecda76d24889dfeeb67cf020c46aa1ee6c58",
+      "bytes": 21626
+    },
+    "dataset_license": {
+      "url": "https://raw.githubusercontent.com/google-research/google-research/2adf640a14f11025ae5a9d0ec493b78530d276d3/LICENSE",
+      "file": "goemotions_LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "bytes": 11358
+    },
+    "model/config.json": {
+      "url": "https://huggingface.co/distilbert/distilbert-base-uncased/resolve/12040accade4e8a0f71eabdb258fecc2e7e948be/config.json",
+      "file": "distilbert__config.json",
+      "sha256": "69c94b0222d5d1f4b0ad027ca7416cdafb98378cbbb8305d0bf47c9365c60c83",
+      "bytes": 483
+    },
+    "model/tokenizer.json": {
+      "url": "https://huggingface.co/distilbert/distilbert-base-uncased/resolve/12040accade4e8a0f71eabdb258fecc2e7e948be/tokenizer.json",
+      "file": "distilbert__tokenizer.json",
+      "sha256": "ce64fce797c24f68df90b40a3f74f579b336a493db14bd583fd520ea0d8c9a98",
+      "bytes": 466062
+    },
+    "model/tokenizer_config.json": {
+      "url": "https://huggingface.co/distilbert/distilbert-base-uncased/resolve/12040accade4e8a0f71eabdb258fecc2e7e948be/tokenizer_config.json",
+      "file": "distilbert__tokenizer_config.json",
+      "sha256": "a025160ef0431f1a392f6f050c1310f4c5d9fb6f275932dbccba73c4d214bf10",
+      "bytes": 48
+    },
+    "model/vocab.txt": {
+      "url": "https://huggingface.co/distilbert/distilbert-base-uncased/resolve/12040accade4e8a0f71eabdb258fecc2e7e948be/vocab.txt",
+      "file": "distilbert__vocab.txt",
+      "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+      "bytes": 231508
+    },
+    "model/README.md": {
+      "url": "https://huggingface.co/distilbert/distilbert-base-uncased/resolve/12040accade4e8a0f71eabdb258fecc2e7e948be/README.md",
+      "file": "distilbert__README.md",
+      "sha256": "b925a22d8efd7a29608a0e10d3f2fb33d5d80df7de4ac6e34093853cd8e0274e",
+      "bytes": 8577
+    },
+    "model/LICENSE": {
+      "file": "distilbert__LICENSE",
+      "url": "https://huggingface.co/distilbert/distilbert-base-uncased/resolve/12040accade4e8a0f71eabdb258fecc2e7e948be/LICENSE",
+      "sha256": "43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1",
+      "bytes": 11356
+    }
+  },
+  "glove": {
+    "num_records": 400000,
+    "file_size": 69182535,
+    "base_dataset": "Wikipedia 2014 + Gigaword 5 (6B tokens, uncased)",
+    "reader_code": "https://github.com/RaRe-Technologies/gensim-data/releases/download/glove-wiki-gigaword-50/__init__.py",
+    "license": "http://opendatacommons.org/licenses/pddl/",
+    "parameters": {
+      "dimension": 50
+    },
+    "description": "Pre-trained vectors based on Wikipedia 2014 + Gigaword, 5.6B tokens, 400K vocab, uncased (https://nlp.stanford.edu/projects/glove/).",
+    "preprocessing": "Converted to w2v format with `python -m gensim.scripts.glove2word2vec -i <fname> -o glove-wiki-gigaword-50.txt`.",
+    "read_more": [
+      "https://nlp.stanford.edu/projects/glove/",
+      "https://nlp.stanford.edu/pubs/glove.pdf"
+    ],
+    "checksum": "c289bc5d7f2f02c6dc9f2f9b67641813",
+    "file_name": "glove-wiki-gigaword-50.gz",
+    "parts": 1
+  },
+  "embedding": {
+    "file": "glove-wiki-gigaword-50.gz",
+    "sha256": "5c55f98957aa9fed8d2ac5fb1dcff57af3b23c5a3ee7af3f7945f8d49198eb24",
+    "md5": "c289bc5d7f2f02c6dc9f2f9b67641813",
+    "bytes": 69182535,
+    "url": "https://github.com/RaRe-Technologies/gensim-data/releases/download/glove-wiki-gigaword-50/glove-wiki-gigaword-50.gz",
+    "license": "http://opendatacommons.org/licenses/pddl/",
+    "metadata_checksum": "c289bc5d7f2f02c6dc9f2f9b67641813",
+    "dimension": 50,
+    "format": "gzip word2vec text, 400000 50 header"
+  },
+  "model_weights": {
+    "file": "distilbert__model.safetensors",
+    "sha256": "5e3f1108e3cb34ee048634875d8482665b65ac713291a7e32396fb18f6ff0063",
+    "md5": "91e1dc77ce783f6775dbaf93460440b6",
+    "bytes": 267954768,
+    "url": "https://huggingface.co/distilbert/distilbert-base-uncased/resolve/12040accade4e8a0f71eabdb258fecc2e7e948be/model.safetensors"
+  },
+  "terms": {
+    "dataset": "Dataset card declares Apache-2.0; source LICENSE retained. English Reddit comments may include offensive content; original dataset limitations apply.",
+    "mapping": "Google Research Apache-2.0 source.",
+    "embedding": "Gensim resource metadata specifies PDDL; underlying GloVe Wikipedia 2014 + Gigaword 5 provenance retained.",
+    "model": "DistilBERT Apache-2.0 LICENSE and model card retained.",
+    "access": "Public unauthenticated downloads succeeded in cloud; Hugging Face/GitHub service terms also apply."
+  }
+}

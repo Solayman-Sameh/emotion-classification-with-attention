@@ -1,0 +1,34 @@
+# Python & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments & caches
+.venv*/
+venv*/
+env*/
+.model_cache/
+.cache/
+.ipynb_checkpoints/
+emotion_classification_run/
+
+# Large training / model binary archives
+codex-space/
+*.pt
+*.safetensors
+*.bin
+*.zip
+
+# OS & IDE metadata
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Local credentials and release verification workspaces
+.env
+.env.*
+!.env.example
+.release-checks/

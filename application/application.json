@@ -1,0 +1,20 @@
+{
+  "selected": "distilbert",
+  "attention_model": "bilstm_attention",
+  "labels": [
+    "joy",
+    "sadness",
+    "anger",
+    "fear",
+    "surprise",
+    "disgust"
+  ],
+  "mode": "full",
+  "quality_claim": true,
+  "preparation_identity": {
+    "key": "40f2c380f751403985c80ef19bbcb360a4996f792431f8cf43ca184283a948b0"
+  },
+  "checkpoint_roles": "Selected model supplies bars; BiLSTM + Attention supplies its own separately labeled prediction and token weights.",
+  "cpu_parity_tolerance": "3e-6 CPU-to-CPU; 3e-3 CUDA-to-CPU probabilities, matching argmax on fixed validation probes required",
+  "no_dataset_or_glove_download_at_startup": true
+}

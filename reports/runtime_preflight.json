@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "torch": "2.11.0+cu130",
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "pyarrow": "19.0.1",
+    "scikit-learn": "1.6.1",
+    "transformers": "4.57.1",
+    "accelerate": "1.11.0",
+    "huggingface-hub": "0.36.0",
+    "tokenizers": "0.22.1",
+    "safetensors": "0.6.2",
+    "matplotlib": "3.10.1",
+    "gradio": "5.49.1",
+    "python": "3.13.16"
+  },
+  "cuda_available": true,
+  "visible_gpu_count": 2,
+  "torch_compiled_cuda": "13.0",
+  "environment": "project isolated subprocess runtime",
+  "restart_required": false
+}

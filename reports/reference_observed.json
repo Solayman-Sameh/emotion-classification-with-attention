@@ -1,0 +1,97 @@
+{
+  "raw_counts": {
+    "train": 43410,
+    "validation": 5426,
+    "test": 5427
+  },
+  "supports": {
+    "train": {
+      "anger": 4283,
+      "fear": 537,
+      "surprise": 3845,
+      "joy": 15044,
+      "sadness": 2313,
+      "disgust": 495
+    },
+    "validation": {
+      "sadness": 266,
+      "joy": 1929,
+      "anger": 555,
+      "fear": 72,
+      "surprise": 459,
+      "disgust": 61
+    },
+    "test": {
+      "sadness": 283,
+      "joy": 1858,
+      "anger": 572,
+      "fear": 80,
+      "surprise": 488,
+      "disgust": 76
+    }
+  },
+  "exclusions": {
+    "train": {
+      "neutral": 14219,
+      "retained": 26517,
+      "cross_emotion": 2459,
+      "duplicate_cross_split": 115,
+      "duplicate_within_split": 88,
+      "conflicting_group": 12
+    },
+    "validation": {
+      "neutral": 1766,
+      "retained": 3342,
+      "cross_emotion": 306,
+      "duplicate_cross_split": 8,
+      "duplicate_within_split": 4
+    },
+    "test": {
+      "retained": 3357,
+      "neutral": 1787,
+      "cross_emotion": 278,
+      "duplicate_within_split": 5
+    }
+  },
+  "split_fingerprints": {
+    "train": "5794e0aa27b256f123562ee6ae9ed84ad6b5f40b06c75d670b9d7e15c383ca70",
+    "validation": "582d5f10cd7777d01ac01e2d4bab931abb7a7b6619cff126e2e6bc204bbf84a3",
+    "test": "70d8985e04c9265d0cbd7b35b549032d64e0612d820d4e57a32ef53f256610bd"
+  },
+  "vocab_fingerprint": "2922ea9c7cdf49d185f00e9ca8d48cb3b631b7d80bf07ed86d1b96a294d3983f",
+  "embedding_matrix_sha256": "ba206a97dc4f5f5dd2a10007e782a89e45a3df699163d099ba8dbc83c965bb70",
+  "word_cap": 128,
+  "subword_cap": 128,
+  "preprocess_version": "emotion-nfc-whitespace-v1-word-contraction-punct-v1",
+  "label_metadata": [
+    "admiration",
+    "amusement",
+    "anger",
+    "annoyance",
+    "approval",
+    "caring",
+    "confusion",
+    "curiosity",
+    "desire",
+    "disappointment",
+    "disapproval",
+    "disgust",
+    "embarrassment",
+    "excitement",
+    "fear",
+    "gratitude",
+    "grief",
+    "joy",
+    "love",
+    "nervousness",
+    "optimism",
+    "pride",
+    "realization",
+    "relief",
+    "remorse",
+    "sadness",
+    "surprise",
+    "neutral"
+  ],
+  "pretrained_vocab_rows": 17320
+}

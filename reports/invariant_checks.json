@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "execution": "real cloud CPU neural invariants + real-source data checks",
+  "models": {
+    "lstm": {
+      "padding_invariance": true,
+      "finite_gradients": true,
+      "clean_reload": true,
+      "attention_joint_gradient": false
+    },
+    "gru": {
+      "padding_invariance": true,
+      "finite_gradients": true,
+      "clean_reload": true,
+      "attention_joint_gradient": false
+    },
+    "bilstm_attention": {
+      "padding_invariance": true,
+      "finite_gradients": true,
+      "clean_reload": true,
+      "attention_joint_gradient": true
+    }
+  },
+  "reference_verified": true
+}

@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "mode": "bounded",
+  "real_train_validation_samples": true,
+  "all_four_neural_workers": true,
+  "test_predictions_evaluated": false,
+  "applications_checked": [
+    "lstm",
+    "distilbert",
+    "bilstm_attention"
+  ],
+  "compatible_completed_reuse": true,
+  "archive_crc_checked": true,
+  "cuda_execution": true
+}
